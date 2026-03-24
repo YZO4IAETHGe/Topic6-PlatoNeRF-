@@ -24,8 +24,7 @@ This project extends the original **NeRF** implementation by adding **SIREN** as
 - Toggle via the `SIREN` boolean variable
 
 ### `src/render_depth_test.py`
-- Applied same modifications to `create_nerf()` function  
-- Enables model switching during inference
+- Applied same modifications to `create_nerf()` function
 
 ### `src/utils/siren.py` (New)
 - Complete **SIREN architecture** implementation
@@ -107,7 +106,7 @@ python src/render_test_depth.py \
     --i_embed -1
 ```
 
-### 📸 Inference with NeRF
+### Inference with NeRF
 
 **Step 1:** Edit `src/render_depth_test.py`
 ```python
@@ -128,8 +127,8 @@ python src/render_test_depth.py \
 All pre-trained checkpoints are located in:
 ```
 logs/chair/
-├── nerf_ckpt/      (NeRF checkpoints)
-└── siren_ckpt/     (SIREN checkpoints)
+├── nerf_ckpt/.tar      (NeRF checkpoints)
+└── siren_ckpt/.tar     (SIREN checkpoints)
 ```
 
 **To use checkpoints:**
