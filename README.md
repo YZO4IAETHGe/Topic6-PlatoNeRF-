@@ -12,12 +12,7 @@
 
 ## Overview
 
-This project extends the original **NeRF** implementation by adding **SIREN** (Sinusoidal Representation Networks) as an alternative model. You can easily switch between both models using a simple boolean flag.
-
-**Key Features:**
-- Switch between NeRF and SIREN with a single flag
-- Unified training pipeline for both models
-- Pre-trained checkpoints available
+This project extends the original **NeRF** implementation by adding **SIREN** as an alternative model. You can easily switch between both models using a simple boolean flag.
 
 ---
 
